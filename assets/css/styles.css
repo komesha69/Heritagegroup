@@ -1015,6 +1015,9 @@ body.dark-theme {
     grid-template-columns: repeat(2, max-content);
     justify-content: space-between;
   }
+  .contact__card#fullpage {
+    grid-template-columns: repeat(1, 400px);
+}
 }
 
 /* For large devices */
@@ -1199,6 +1202,9 @@ body.dark-theme {
     bottom: 3rem;
     right: 3rem;
   }
+  .contact__card#fullpage {
+    grid-template-columns: repeat(1, 400px);
+}
 }
 
 @media screen and (min-width: 1040px) {
@@ -1229,4 +1235,7 @@ body.dark-theme {
   #value .value__container {
     grid-template-columns: 1fr; /* override the default grid template */
   }
+  .contact__card#fullpage {
+    grid-template-columns: repeat(1, 400px);
+}
 }
